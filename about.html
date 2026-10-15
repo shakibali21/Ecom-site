@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn about Indonor Shop, your destination for everyday technology and useful gadgets." />
+  <title>Indonor Shop</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+  <header class="section-navbar">
+    <section class="top_txt"><div class="head container"><div class="head_txt"><p>Free shipping, 30-day return or refund guarantee.</p></div><div class="sing_in_up"><a href="contact.html">SUPPORT</a><a href="contact.html">CONTACT</a></div></div></section>
+    <div class="container">
+      <div class="navbar-brand"><a href="index.html"><img src="./images/indonor-logo.svg" alt="Indonor Shop logo" class="logo" /></a></div>
+      <nav class="navbar"><ul>
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link" aria-current="page">About</a></li>
+        <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        <li class="nav-item"><a href="addToCart.html" class="nav-link add-to-cart-button" id="cartValue"><i class="fa-solid fa-cart-shopping"></i> 0</a></li>
+      </ul></nav>
+    </div>
+  </header>
+  <main class="about-page-main">
+    <section class="container about-intro">
+      <p class="hero-subheading">About our store</p>
+      <h1 class="hero-heading">Technology shopping, made simple.</h1>
+      <p class="about-lead">Indonor Shop brings useful tech and everyday gadgets together in one easy-to-browse online store. Our goal is to make discovering products straightforward, with clear details and a smooth shopping experience.</p>
+      <a href="products.html" class="btn">Explore products</a>
+    </section>
+    <section class="container about-values">
+      <article><span class="about-value-icon"><i class="fa-solid fa-box-open"></i></span><h2>Useful products</h2><p>Browse a curated selection of electronics and accessories for work, study and everyday life.</p></article>
+      <article><span class="about-value-icon"><i class="fa-solid fa-cart-shopping"></i></span><h2>Simple shopping</h2><p>View product details, adjust quantities and keep selected items together in your cart.</p></article>
+      <article><span class="about-value-icon"><i class="fa-solid fa-envelope"></i></span><h2>Here to help</h2><p>Have a question? Contact us at <a href="mailto:shakibjsr21@gmail.com">shakibjsr21@gmail.com</a>.</p></article>
+    </section>
+  </main>
+  <footer class="section-footer">
+    <div class="footer-container container">
+      <div class="content_1"><img src="./images/indonor-logo.svg" alt="Indonor Shop logo" /><p>Your destination for useful technology and everyday gadgets.</p><img src="./images/payment-methods.svg" alt="Payment methods" /></div>
+      <div class="content_2"><h4>SHOPPING</h4><a href="products.html">All products</a><a href="products.html">Gadgets</a><a href="addToCart.html">Your cart</a></div>
+      <div class="content_3"><h4>SUPPORT</h4><a href="contact.html">Contact us</a><a href="mailto:shakibjsr21@gmail.com">Email support</a></div>
+      <div class="content_4"><h4>CONTACT</h4><p><a href="mailto:shakibjsr21@gmail.com">shakibjsr21@gmail.com</a></p></div>
+    </div>
+    <div class="f-design"><div class="f-design-txt"><p>© <span id="currentYear"></span> Indonor Shop</p></div></div>
+  </footer>
+  <script type="module" src="main.js"></script>
+  <script>document.getElementById('currentYear').textContent = new Date().getFullYear();</script>
+  <script type="module" src="cartBadge.js"></script>
+</body>
+</html>
